@@ -4,12 +4,16 @@ title:      "CSS Animation"
 subtitle:   "Brief intruduce of CSS Animation"
 date:       2018-11-10
 author:     "惠坤"
+tags:
+    - CSS
 URL:        "/2018/11/10/css-animation/"
 image:      "http://image.kevinxi.me/uploads/big/5e6599a76d4995355b29bfc9bf063ed1.jpg"
 ---
 
-#CSS Animation
-##Why Animation
+<h1>CSS Animation</h1>
+
+<h2>Why Animation</h2>
+
 目前网页内容越来越丰富，首先动画本事可以让网页看起来更加炫酷，其次合理的运用CSS动画可以大大的提升网页的用户体验。我们可以看看下面的一个关于网页动画的例子。
 
 [运行该代码](https://codepen.io/Gougougogogo/pen/OzNLRm)
@@ -126,14 +130,17 @@ image:      "http://image.kevinxi.me/uploads/big/5e6599a76d4995355b29bfc9bf063ed
 }
 ```
 
-#####看完后是不是发现，有动画的网页明显显得更加 高！大！上！
-##How to animation?
+*看完后是不是发现，有动画的网页明显显得更加 高！大！上！*
+
+<h2>How to animation?</h2>
+
 目前网页使用CSS来实现动画有两种方式：
 
 1. CSS Transition
 2. CSS Animation
 
-## What is css transition?
+<h2> What is css transition? </h2>
+
 简而言之，Transition 就是可以让你的元素在规定时间平滑属性值（从一个数值到另一个），何为平滑？其实平滑就是我们所说的动画，它可以让物体从一个状态缓慢的变化到另外一个状态。
 
 那么如何写让一个网页元素具备平滑过度的功能呢？我们先来看看 CSS Transition 都有哪些属性:
@@ -236,7 +243,8 @@ image:      "http://image.kevinxi.me/uploads/big/5e6599a76d4995355b29bfc9bf063ed
 
 答案是不能，因为从transition的定义中我们不难发现，它是一个让元素从状态A平滑过渡到状态B，所以transition描述的动画总是会结束的，它无法让动画一直run起来。 接下来我们将到的CSS animation 则可以做到这点。
 
-##CSS Animation
+<h2>CSS Animation</h2>
+
 CSS3 可以让大多数HTML元素呈现动画效果的技术。从定义我们可以看出，CSS Animation 是从 CSS3 开始的，它的作用是让页面元素呈现动画效果。
 
 我们来看看Animation都有哪些属性：
@@ -306,7 +314,7 @@ CSS3 可以让大多数HTML元素呈现动画效果的技术。从定义我们�
 ```
 CSS animation中的 `duration`,`delay`, `timing-function`和transition中的是一样的，所以在此不再做赘述，我们重点来看看其他的属性。
 
-###animation-iteration-count
+<h3>animation-iteration-count</h3>
 
 iteration-count 定义了动画的执行次数，默认值为1
 
@@ -326,7 +334,7 @@ iteration-count 定义了动画的执行次数，默认值为1
 	</tbody>
 </table>
 
-###animation-play-state
+<h3>animation-play-state</h3>
 
 animation-play-state定义了动画的执行状态，paused为暂停执行动画，running为执行动画。
 
@@ -380,7 +388,7 @@ animation-play-state定义了动画的执行状态，paused为暂停执行动画
 }
 ```
 
-###animation-fill-mode
+<h3>animation-fill-mode</h3>
 
 animation-fill-mode 定义元素在应用该动画初始和结束时的状态.
 <table class="dataintable">
@@ -454,7 +462,7 @@ animation-fill-mode 定义元素在应用该动画初始和结束时的状态.
 </tr>
 </tbody></table>
 
-###animation-direction
+<h3>animation-direction</h3>
 
 animation-direction 定义了动画的播放顺序（从起始桢到结束桢还是结束桢到起始桢）
 
