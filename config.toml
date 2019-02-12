@@ -1,5 +1,5 @@
 baseurl = "http://www.kevinxi.me"
-title = "Huabing Blog"
+title = "Kevin Xi's Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
