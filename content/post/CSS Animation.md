@@ -4,7 +4,7 @@ title:      "CSS Animation"
 subtitle:   "Brief intruduce of CSS Animation"
 date:    2018-11-10
 author:     "惠坤"
-image: "http://image.kevinxi.me/uploads/big/5e6599a76d4995355b29bfc9bf063ed1.jpg"
+image: "http://img.kevinxi.me/uploads/big/5e6599a76d4995355b29bfc9bf063ed1.jpg"
 tags:
     - CSS
 URL: "/2018/11/10/css-animation/"
